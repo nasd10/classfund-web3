@@ -46,8 +46,8 @@ The contract consists of several key functions:
 ### 2. Installation
 Clone the repository and install dependencies:
 ```bash
-git clone [https://github.com/your-username/classfund.git](https://github.com/nasd10/classfund.git)
-cd classfund
+git clone [https://github.com/your-username/classfund-web3.git](https://github.com/nasd10/classfund-web3.git)
+cd classfund-web3
 npm install
 ```
 
@@ -85,7 +85,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 - **Network**: Sepolia Testnet
 - **Contract Address**: `0x43c9c8ced4655a2b7ee26d680935cb0d82bdf071`
-- **Source Code**: Available in the class-fund repo `contracts/` directory (if applicable)
+- **Source Code**: Available in the class-fund repo (https://github.com/nasd10/class-fund) `contracts/` directory (if applicable)
 
 ---
 
