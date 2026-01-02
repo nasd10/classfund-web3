@@ -53,8 +53,10 @@ export default function Home() {
         setUserContribution(ethers.formatEther(myTotal));
         setIsTreasurer(userAddress.toLowerCase() === treasurerAddr.toLowerCase());
       } catch (err) {
-        console.error("Koneksi gagal", err);
+        console.error("Failed to connect wallet", err);
       }
+    } else {
+      alert("Please install MetaMask!");
     }
   }
 
